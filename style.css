@@ -7,17 +7,13 @@ body{
     margin-left: 60px; 
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- 
-
 }
 .item{
 font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
 font-weight: 400;
 font-style: normal;
 font-variant: inherit;
-
 }
-
 .item1 {
     grid-column: 1 / 5;
     grid-row: 1;
@@ -56,7 +52,6 @@ font-variant: inherit;
 .cursos li{
     list-style: none;
 }
-
 .cursos li p{
     font-size: 12px;
 }
@@ -75,7 +70,6 @@ font-variant: inherit;
 .item6 a:hover{
     color: coral;
 }
-
 .item7{
     grid-column:  1 / 7;
     grid-row: 5;
@@ -93,23 +87,19 @@ font-variant: inherit;
     font-size: 8px;
     padding-inline: 5px;
 }
-
 .p-endereco, .p-email, .p-telefone{
     display: flex;
 }
-
 .enderecologo{
     margin-right: 5px;
     width: 20px;
     height: 20px
 }
-
 .emailogo{
     margin-right: 5px;
     width: 20px;
     height: 20px;
 }
-
 .phoneLogo{
     margin-top: 8px;
     margin-right: 5px;
@@ -125,7 +115,6 @@ body{
     display: block;
     margin-left: 5px;
     margin-right: 5px;
- 
 }
 .item1 {
   font-size: 20px;
@@ -146,7 +135,6 @@ text-align: center;
 .item8{
     display: block;
     text-align: center;
- 
 }
 .item8 .p-endereco, .p-email, .p-telefone {
     justify-content: center;
