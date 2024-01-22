@@ -1,18 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700; 1.900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body{
-    background-color: black;
+ background-color:rgb(42, 41, 41);
 }
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     margin-left: 60px; 
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .item{
-font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
-font-weight: 400;
-font-style: normal;
-font-variant: inherit;
+    font-family:roboto, poppins ;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: inherit;
 }
 .item1 {
     grid-column: 1 / 5;
